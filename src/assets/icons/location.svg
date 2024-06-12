@@ -1,0 +1,9 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" d="M16 6.66669C10.8454 6.66669 6.66667 10.8454 6.66667 16C6.66667 21.1547 10.8454 25.3334 16 25.3334C21.1547 25.3334 25.3333 21.1547 25.3333 16C25.3333 10.8454 21.1547 6.66669 16 6.66669ZM16 11.6667C13.6068 11.6667 11.6667 13.6068 11.6667 16C11.6667 18.3932 13.6068 20.3334 16 20.3334C18.3932 20.3334 20.3333 18.3932 20.3333 16C20.3333 13.6068 18.3932 11.6667 16 11.6667Z" fill="#475569"/>
+<path d="M25.3333 16C25.3333 21.1547 21.1547 25.3334 16 25.3334C10.8454 25.3334 6.66667 21.1547 6.66667 16C6.66667 10.8454 10.8454 6.66669 16 6.66669C21.1547 6.66669 25.3333 10.8454 25.3333 16Z" stroke="#475569" stroke-width="3"/>
+<path d="M25.3333 16H28" stroke="#475569" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 16H6.66667" stroke="#475569" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 25.3333V28" stroke="#475569" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 4V6.66667" stroke="#475569" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 16C20 18.2092 18.2092 20 16 20C13.7908 20 12 18.2092 12 16C12 13.7908 13.7908 12 16 12C18.2092 12 20 13.7908 20 16Z" stroke="#475569" stroke-width="3"/>
+</svg>
