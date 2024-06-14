@@ -10,6 +10,15 @@ export default {
       backgroundImage: {
         hero: "url('assets/images/hero-mountain.jpg')",
       },
+      keyframes: {
+        bounceSlow: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+      },
+      animation: {
+        "bounce-slow": "bounceSlow 2s infinite",
+      },
     },
   },
   plugins: [],

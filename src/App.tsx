@@ -8,9 +8,9 @@ import Tips from "./sections/Tips";
 
 function App() {
   return (
-    <main>
+    <main className="relative">
+      <Nav />
       <section className="bg-hero h-screen bg-cover">
-        <Nav />
         <Hero />
       </section>
 

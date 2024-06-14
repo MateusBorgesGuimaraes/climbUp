@@ -13,9 +13,21 @@ const Nav = () => {
     setFocusIndex(index === focusIndex ? 0 : index);
   };
 
+  React.useEffect(() => {
+    const handleHashChange = () => {
+      setMobileMenu(false);
+    };
+
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
+  }, []);
+
   return (
-    <header className="max-container pt-4">
-      <nav className="flex relative  justify-between items-center">
+    <header className=" pt-4 absolute z-10 w-full">
+      <nav className="flex relative max-xl:px-3 justify-between max-container items-center">
         <a href="/">
           <img
             width={90}
@@ -38,7 +50,9 @@ const Nav = () => {
         )}
         <ul
           className={`${
-            mobileMenu ? "max-md:block max-md:absolute" : "max-md:hidden"
+            mobileMenu
+              ? "max-md:block max-md:absolute max-md:right-3 max-md:top-12 max-md:bg-slate-400/20 max-sm:bg-slate-950/95 max-md:py-8 max-md:px-12 max-md:rounded-md max-md:shadow-lg max-md:ring-1 max-md:z-10 max-md:ring-slate-800/5 max-md:space-y-4"
+              : "max-md:hidden "
           } flex font-lato text-lg text-slate-100 gap-9`}
         >
           {links.map((item, index) => (
