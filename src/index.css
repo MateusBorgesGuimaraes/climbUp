@@ -16,4 +16,8 @@
     max-width: 1180px;
     margin: 0 auto;
   }
+
+  .customShadow {
+    box-shadow: 0px 12px #f1f5f9, 0 -12px #f1f5f9;
+  }
 }
