@@ -20,4 +20,16 @@
   .customShadow {
     box-shadow: 0px 12px #f1f5f9, 0 -12px #f1f5f9;
   }
+
+  .card-zoom {
+    @apply overflow-hidden w-[280px] h-[180px];
+  }
+
+  .card-zoom-image {
+    @apply transition-all duration-500 ease-in-out transform bg-center;
+  }
+
+  .card-zoom:hover .card-zoom-image {
+    @apply scale-125;
+  }
 }

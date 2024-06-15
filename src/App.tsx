@@ -14,7 +14,7 @@ function App() {
         <Hero />
       </section>
 
-      <section>
+      <section id="#mountains" className="max-container mt-8">
         <Recommendations />
       </section>
 

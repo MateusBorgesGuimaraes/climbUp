@@ -2,6 +2,12 @@ import React from "react";
 import { assets } from "../assets/assets";
 
 const Hero = () => {
+  const scrollSuave = (id: string) => {
+    const sectionChoice = document.getElementById(id);
+    if (sectionChoice) {
+      sectionChoice.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="max-container max-xl:px-3 ">
       <div className="flex  h-screen flex-col items-center justify-center relative max-sm:pb-16">
@@ -14,7 +20,10 @@ const Hero = () => {
           caters to climbers of all skill levels, from beginners to seasoned
           professionals
         </p>
-        <button className="absolute bottom-10 max-sm:bottom-16 animate-bounce-slow">
+        <button
+          onClick={() => scrollSuave("#mountains")}
+          className="absolute bottom-10 max-sm:bottom-16 animate-bounce-slow"
+        >
           <img src={assets.arrowDown} alt="Go to recommendations" />
         </button>
       </div>
