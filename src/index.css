@@ -15,8 +15,7 @@ summary {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.5rem;
-  /* transition: background-color .3s ; */
+  padding-bottom: 0.5rem;
 }
 
 summary::after {
