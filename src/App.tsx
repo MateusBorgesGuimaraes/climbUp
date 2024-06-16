@@ -18,7 +18,7 @@ function App() {
         <Recommendations />
       </section>
 
-      <section>
+      <section className="bg-slate-200 mt-8">
         <Tips />
       </section>
 
