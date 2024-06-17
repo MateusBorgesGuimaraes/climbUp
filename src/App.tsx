@@ -10,7 +10,7 @@ function App() {
   return (
     <main className="relative">
       <Nav />
-      <section className="bg-hero h-screen bg-cover">
+      <section id="#home" className="bg-hero h-screen bg-cover">
         <Hero />
       </section>
 
@@ -18,15 +18,17 @@ function App() {
         <Recommendations />
       </section>
 
-      <section className="bg-slate-200 mt-8">
+      <section id="#tips" className="bg-slate-200 mt-8">
         <Tips />
       </section>
 
-      <section>
+      <section id="#gallery" className="max-container mt-8">
         <Gallery />
       </section>
 
-      <Footer />
+      <div id="#contacts">
+        <Footer />
+      </div>
     </main>
   );
 }

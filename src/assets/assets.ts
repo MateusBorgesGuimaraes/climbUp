@@ -13,6 +13,8 @@ import gallery1 from "./images/mountain-gallery1.jpg";
 import gallery2 from "./images/mountain-gallery2.jpg";
 import gallery3 from "./images/mountain-gallery3.jpg";
 import gallery4 from "./images/mountain-gallery4.jpg";
+import gallery5 from "./images/mountain-gallery5.jpg";
+import gallery6 from "./images/mountain-gallery6.jpg";
 
 export const assets = {
   logo,
@@ -29,4 +31,6 @@ export const assets = {
   gallery2,
   gallery3,
   gallery4,
+  gallery5,
+  gallery6,
 };

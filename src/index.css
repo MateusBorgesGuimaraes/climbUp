@@ -61,11 +61,16 @@ details[open] summary ~ * {
     @apply overflow-hidden w-[280px] h-[180px];
   }
 
+  .card-zoom2 {
+    @apply overflow-hidden w-[380px] h-[290px];
+  }
+
   .card-zoom-image {
     @apply transition-all duration-500 ease-in-out transform bg-center;
   }
 
-  .card-zoom:hover .card-zoom-image {
+  .card-zoom:hover .card-zoom-image,
+  .card-zoom2:hover .card-zoom-image {
     @apply scale-125;
   }
 }

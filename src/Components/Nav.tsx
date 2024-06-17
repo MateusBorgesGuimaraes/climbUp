@@ -25,6 +25,13 @@ const Nav = () => {
     };
   }, []);
 
+  const scrollSuave = (id: string) => {
+    const sectionChoice = document.getElementById(id);
+    if (sectionChoice) {
+      sectionChoice.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className=" pt-4 absolute z-10 w-full">
       <nav className="flex relative max-xl:px-3 justify-between max-container items-center">
@@ -65,7 +72,12 @@ const Nav = () => {
                   : 'after:content-[""] after:absolute after:w-3 after:h-3 after:bg-slate-200 after:rounded-[50%] after:transition-transform after:duration-500 after:transform after:scale-0 after:opacity-0'
               }`}
             >
-              <a href={`#${item.toLowerCase()}`}>{item}</a>
+              <a
+                onClick={() => scrollSuave(`#${item.toLowerCase()}`)}
+                href={`#${item.toLowerCase()}`}
+              >
+                {item}
+              </a>
             </li>
           ))}
         </ul>
